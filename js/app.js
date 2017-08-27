@@ -8,6 +8,7 @@ let danger_zone = false;
 let danger_count = 0;
 let words = 0;
 let time_since_stroke = 0;
+let composing = false;
 let $input = $('#input');
 let $progress = $('#progress');
 let progress = 0;
@@ -199,6 +200,8 @@ $input.on('scroll', function () {
   $("#input-wrap").toggleClass("cut-bottom", this.scrollHeight - 10 > $(this).height() + this.scrollTop && this.scrollHeight > $(this).height());
 });
 
+$input.on('compositionstart compositionend', function(){composing=!composing});
+$input.on('input', function(e){if(composing){stroke(e)}});
 $input.on('keydown', stroke);
 
 let toggleFullScreen = function() {

@@ -12,7 +12,7 @@ export default class Download extends React.Component {
     const firstLine = this.props.text.replace(/[",.!-::']/g , "");
     const length = firstLine.indexOf(" ", 25);
     const title = firstLine.substr(0, length > 0 ? length : 30);
-    const date = new Date().toLocaleDateString();
+    const date = new Date(this.props.finishTime * 1000).toLocaleDateString();
     // Replace clean newlines with windows evil
     const text = this.props.text.replace(/([^\r])\n/g, "$1\r\n");
     const blob = new Blob([text], {type: "text/plain;charset=utf-8"});
@@ -24,7 +24,7 @@ export default class Download extends React.Component {
     return (
       <AppContext.Consumer>
       { ({words}) =>
-        <button onClick={this.download} className="tiny ghost">Download { words || 0 } { words === 1 ? "word" : "words" }</button>
+          <button onClick={this.download} className="tiny ghost">Download { words || 0 } { words === 1 ? "word" : "words" }</button>
       }
       </AppContext.Consumer>
     )

@@ -149,11 +149,13 @@ class WritingApp extends React.Component {
       progress,
       danger,
       timeSinceStroke: prevState.timeSinceStroke + 0.1,
+      startTime,
+      duration
     }));
   }
 
   render() {
-    const { danger, won, lost, text, nightMode, limit, type, hardcore } =
+    const { danger, won, lost, text, nightMode, limit, type, hardcore, startTime, duration } =
       this.state;
     const appClass = classNames("app", {
       "night-mode": nightMode,
@@ -166,7 +168,7 @@ class WritingApp extends React.Component {
             <Failure />
             <Progress />
             <div className="buttons">
-              {won && <Download text={text} />}
+              {won && <Download finishTime={startTime + duration} text={text} />}
               <i className="icon-night-mode" onClick={this.toggleNightMode}></i>
               <i
                 className="icon-fullscreen"

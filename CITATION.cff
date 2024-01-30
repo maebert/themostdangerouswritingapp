@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: The Most Dangerous Writing App
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Manu
+    family-names: Ebert
+    email: manuel@1450.me
+    orcid: 'https://orcid.org/0000-0002-3540-3454'
+repository-code: 'http://github.com/maebert/themostdangerouswritingapp'
+url: 'https://maebert.github.io/themostdangerouswritingapp'
+abstract: >-
+  The Most Dangerous Writing App is designed to get you into
+  a state of flow. If you stop typing for more than five
+  seconds, all progress will be lost.
+license: GPL-3.0

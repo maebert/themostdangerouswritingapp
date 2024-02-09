@@ -1,0 +1,12 @@
+**/node_modules/
+**/.git
+**/*.md
+**/LICENSE
+**/.vscode
+**/*.sublime-project
+**/npm-debug.log
+**/coverage
+**/.env
+**/.editorconfig
+**/.aws
+**/dist

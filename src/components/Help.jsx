@@ -131,12 +131,12 @@ export default class Help extends React.Component {
           <abbr title="The Most Dangerous Writing App">MDWA</abbr> was written
           by{" "}
           <a
-            href="https://www.twitter.com/maebert"
+            href="https://www.x.com/maebert"
             rel="noopener noreferrer"
             target="_blank"
-            title="Manuel Ebert"
+            title="Manu Ebert"
           >
-            Manuel Ebert
+            Manu Ebert
           </a>{" "}
           over two glasses of wine on a Sunday afternoon and is{" "}
           <a
@@ -178,7 +178,7 @@ export default class Help extends React.Component {
             href="https://www.twitter.com/maebert"
             rel="noopener noreferrer"
             target="_blank"
-            title="Manuel Ebert"
+            title="Manu Ebert"
           >
             twitter
           </a>

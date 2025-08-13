@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/themostdangerouswritingapp/static/css/main.e2de16a3.css",
-    "main.js": "/themostdangerouswritingapp/static/js/main.b2787ab1.js",
+    "main.js": "/themostdangerouswritingapp/static/js/main.e9f07e31.js",
     "static/media/mdwa.eot?62057485": "/themostdangerouswritingapp/static/media/mdwa.c7354edfb2a1df5f7771.eot",
     "static/media/mdwa.ttf?62057485": "/themostdangerouswritingapp/static/media/mdwa.12c44281e6b543b05dac.ttf",
     "static/media/mdwa.svg?62057485": "/themostdangerouswritingapp/static/media/mdwa.54e0173bf2db6e5ebcd0.svg",
@@ -9,10 +9,10 @@
     "static/media/mdwa.woff2?62057485": "/themostdangerouswritingapp/static/media/mdwa.9e61715db2c19303bd63.woff2",
     "index.html": "/themostdangerouswritingapp/index.html",
     "main.e2de16a3.css.map": "/themostdangerouswritingapp/static/css/main.e2de16a3.css.map",
-    "main.b2787ab1.js.map": "/themostdangerouswritingapp/static/js/main.b2787ab1.js.map"
+    "main.e9f07e31.js.map": "/themostdangerouswritingapp/static/js/main.e9f07e31.js.map"
   },
   "entrypoints": [
     "static/css/main.e2de16a3.css",
-    "static/js/main.b2787ab1.js"
+    "static/js/main.e9f07e31.js"
   ]
 }

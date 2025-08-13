@@ -1,6 +1,6 @@
 {
   "name": "mdwa",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "homepage": "https://maebert.github.io/themostdangerouswritingapp/",
   "private": true,
   "dependencies": {
